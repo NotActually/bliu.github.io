@@ -109,7 +109,7 @@ nav li{
     margin: auto;   
     border-width: 2px;
     border-top-style: solid;
-    border-radius: 3px;
+    border-bottom-style: solid;
     padding: 0 400px 90px 400px;
     width: 100%;
     margin-bottom: 0;
@@ -194,7 +194,7 @@ nav li{
 }
 
 .blog-content-box-image img{
-    border-radius: 10px;
+    border-radius: 18px;
     border-style: none;
 }
 
@@ -217,7 +217,7 @@ nav li{
     margin-left: -4px;
     font-size: 12pt;
     line-height: 19px;
-    color: rgba(0, 0, 0, 0.8)
+    color: rgba(0, 0, 0, 0.3)
 }
 
 
@@ -346,7 +346,7 @@ nav li{
 
 .contact-text-box-bottom{
     color: rgba(0, 0, 0, 0.7);
-    font-size: 12pt;
+    font-size: 7pt;
 }
 .icon-container{
     display: inline-block;
@@ -361,9 +361,9 @@ nav li{
 }
 
 .icon-container a:hover{
-    background-color: none;
     text-decoration: none;
-    opacity: 90%;
+    opacity: 30%;
+    color: none;
 
 }
 
