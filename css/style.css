@@ -355,10 +355,10 @@ nav li{
     display: inline-block;
 }
 
-.icon-container a{
+.fa{
     width:130px;
     height:130px;
-    font-size: 129px;
+    font-size: 120px;
     padding: 5px;
     margin: 10px;
 
@@ -368,8 +368,8 @@ nav li{
 .icon-container a:hover{
     text-decoration: none;
     color: none;
-
-
+    filter: none;
+    color-adjust: none;
 }
 
 

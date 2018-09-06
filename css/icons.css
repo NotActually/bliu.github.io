@@ -14,6 +14,11 @@
 }
 
 .fa-instagram{
-    background-image: linear-gradient(to top right, #f9ed32, #ee2aee);
     color: white;
+    background-color: rgb(2, 81, 146);
+}
+
+.fa-envelope-o{
+    background-color:white;
+    color:red;
 }
