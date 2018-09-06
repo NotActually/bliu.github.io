@@ -12,3 +12,8 @@
     background-color: #007bb5;
     color: white;
 }
+
+.fa-instagram{
+    background-image: linear-gradient(to top right, #f9ed32, #ee2aee);
+    color: white;
+}
