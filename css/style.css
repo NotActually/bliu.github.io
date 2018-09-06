@@ -29,6 +29,8 @@ body{
     right: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25pt;
+
+    line-height: 35px;
 }
 
 .navbar{
@@ -40,7 +42,9 @@ body{
 }
 
 .nav-items li a:link{
-    color: rgb(0, 102, 255);
+    color: rgb(41, 116, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .nav-items a:hover{
@@ -175,7 +179,9 @@ nav li{
 /*Blog*/
 #blog{
     background-color: white;
-    margin: 20px 0;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .blog-content-box{
