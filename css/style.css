@@ -41,15 +41,17 @@ body{
     height: auto;
 }
 
-.nav-items li a:link{
-    color: rgb(41, 116, 255);
-    -webkit-text-stroke-width: 1px;
+.nav-items li a{
     -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    color: rgb(41, 116, 255);
 }
 
 .nav-items a:hover{
-    text-decoration: underline;    
+    text-decoration: underline; 
+    text-decoration-color: white;   
 }
+
 
 .fixed{
     position: fixed;
@@ -62,7 +64,8 @@ nav li{
     letter-spacing: 1px;
     padding: 0;
     display: table-header-group;
-    text-align: left;  
+    text-align: left; 
+    touch-action: manipulation;
 }
 
 
@@ -95,6 +98,18 @@ nav li{
     text-align: left;
 }
 
+.github-button-showcase{
+    background-color: rgb(238, 121, 11);
+    color: white;
+    padding: 10px 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+
+    font-size: 12pt;
+    
+    border-style: none;
+    cursor: pointer;
+}
 
 
 
