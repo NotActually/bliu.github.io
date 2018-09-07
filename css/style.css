@@ -102,10 +102,10 @@ nav li{
     background-color: rgb(238, 121, 11);
     color: white;
     padding: 10px 30px;
-    margin-left: 50px;
     margin-top: 20px;
 
-    font-size: 12pt;
+    font-size: 15pt;
+    font-weight: 500;
     
     border-style: none;
     cursor: pointer;
