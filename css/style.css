@@ -34,7 +34,7 @@ body{
 }
 
 .navbar{
-    background-color: rgba(74, 74, 74, .9);
+    background-color: rgba(74, 74, 74, .5);
     float: left;
     position: relative;
     width: 250px;
@@ -105,7 +105,7 @@ nav li{
     margin-top: 20px;
 
     font-size: 15pt;
-    font-weight: 500;
+    font-weight: 700;
     
     border-style: none;
     cursor: pointer;
@@ -215,11 +215,31 @@ nav li{
     padding-right: 80px;
 }
 
-.blog-content-box-image img{
+.image-container{
+    width: 450px;
+    height: 300px;
     border-radius: 18px;
     border-style: none;
+    float: right;
+
+    text-align: right;
+    overflow: hidden;
 }
 
+.read-more-button{
+    text-align: left;
+    font-weight: 200;
+}
+
+.read-more-button button{
+    border-style: none;
+    border-radius: 10px;
+
+
+    background-color: grey;
+
+    margin-top: 10px;
+}
 .blog-content-box-description{
     height: auto;
     width: 50%;
@@ -254,6 +274,8 @@ nav li{
     margin-top: -20px;
     padding-top: 20px;
     padding-bottom: 50px;
+    width: 100%;
+    min-width: 100%;
 }
 
 .principles-text-box{
@@ -270,6 +292,8 @@ nav li{
     /*background-position: 90px 0 0 0;*/
 }
 .work-system-content-box{
+    display: inline-block;
+    float: left;
     background-color: white;
     border-radius: 8px;
     padding: 20px 30px;
@@ -310,6 +334,9 @@ nav li{
     color: rgb(70, 68, 68);
 }
 
+.gallery-container{
+    overflow:hidden;
+}
 .gallery-item
 {
     display: inline-block;
