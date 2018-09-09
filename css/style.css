@@ -229,6 +229,8 @@ nav li{
 .read-more-button{
     text-align: left;
     font-weight: 200;
+
+    cursor: pointer;
 }
 
 .read-more-button button{
@@ -429,4 +431,8 @@ footer{
     background-color:black;
     padding: 20px 0;
     color: grey;
+}
+
+footer a{
+    text-decoration: underline;
 }
