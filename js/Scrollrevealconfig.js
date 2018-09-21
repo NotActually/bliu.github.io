@@ -53,7 +53,7 @@ ScrollReveal().reveal("#blog .section-header-font", {
     distance: "40px"
 });
 
-ScrollReveal().reveal("#blog p", {
+ScrollReveal().reveal("#blog .website-contents .blog-small-text", {
     delay: 500,
 });
 
