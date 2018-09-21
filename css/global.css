@@ -3,7 +3,9 @@
 
 /* color 1 rgb(163, 0, 0)*/
 
-
+.load-hidden{
+    visibility: 0;
+}
 .aaaa{
     color:rgb(0, 0, 0);
 }
