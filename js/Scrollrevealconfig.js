@@ -79,14 +79,6 @@ ScrollReveal().reveal("#work .box-one", {
     delay: 500,
 });
 
-ScrollReveal().reveal("#work .box-two", {
-    delay: 800,
-});
-
-ScrollReveal().reveal("#work .box-three", {
-    delay: 1100,
-});
-
 ScrollReveal().reveal("#gallery .section-header-font", {
     delay: 350,
     origin: 'bottom',

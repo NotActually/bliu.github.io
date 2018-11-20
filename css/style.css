@@ -111,6 +111,20 @@ nav li{
     cursor: pointer;
 }
 
+.resume{
+    background-color: rgb(0, 139, 253);
+    color: white;
+    padding: 10px 25px;
+
+    margin-left: 20px;
+
+    font-size: 15pt;
+    font-weight: 700;
+    
+    border-style: none;
+    cursor: pointer;
+}
+
 
 
 
@@ -275,8 +289,8 @@ nav li{
 .work-container{
     background-color: rgba(185, 0, 0, 0.3);
     margin-top: -20px;
-    padding-top: 20px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 110px;
     width: 100%;
     min-width: 100%;
 }
@@ -391,7 +405,7 @@ nav li{
     padding-bottom: 10px;
     text-align:center;
 
-    background-color: rgba(0, 0, 0, 0.25)
+    background-color: rgba(160, 140, 140, 0.25)
 }
 
 .contact-text-box{
