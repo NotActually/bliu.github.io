@@ -185,6 +185,7 @@ nav li{
 
 
 .projects-content-box{
+    background-color: rgba(172, 166, 166, 0.6);
     width: 20%;
     float: left;
     margin: auto;
@@ -195,6 +196,7 @@ nav li{
 
 .projects-content-box-text-img{
     overflow: hidden;
+    font-size: 20px;
 }
 
 .projects-content-box-text-box{
