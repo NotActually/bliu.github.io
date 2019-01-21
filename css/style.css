@@ -101,7 +101,6 @@ nav li{
 .github-button-showcase{
     background-color: rgb(238, 121, 11);
     color: white;
-    padding: 10px 30px;
     margin-top: 20px;
 
     font-size: 15pt;
@@ -114,7 +113,6 @@ nav li{
 .resume{
     background-color: rgb(0, 139, 253);
     color: white;
-    padding: 10px 25px;
 
     margin-left: 20px;
 
@@ -123,6 +121,11 @@ nav li{
     
     border-style: none;
     cursor: pointer;
+}
+
+.button{
+    border-radius: 8px;
+    padding: 10px 25px;
 }
 
 
@@ -185,13 +188,11 @@ nav li{
 
 
 .projects-content-box{
-    background-color: rgba(172, 166, 166, 0.6);
     width: 20%;
     float: left;
     margin: auto;
     max-width: 300px;
     margin: 0 30px;
-    text-align: center;
 }
 
 .projects-content-box-text-img{

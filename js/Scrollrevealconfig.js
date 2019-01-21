@@ -39,14 +39,6 @@ ScrollReveal().reveal(".aboutme-descrip-two", {
     distance: "40px"
 });
 
-ScrollReveal().reveal("#projects .section-header-font", {
-    delay: 350,
-});
-
-ScrollReveal().reveal("#projects .projects-content-box", {
-    delay: 350,
-});
-
 ScrollReveal().reveal("#blog .section-header-font", {
     delay: 350,
     origin: 'bottom',
