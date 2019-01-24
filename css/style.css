@@ -166,7 +166,7 @@ nav li{
 
 /*projects*/
 
-#projects{
+#projects{ 
     text-align: center;
     background-image: url(../images/projects.jpg);
     background-size: cover;
@@ -408,7 +408,7 @@ nav li{
     padding-bottom: 10px;
     text-align:center;
 
-    background-color: rgba(160, 140, 140, 0.25)
+    background-color: black;
 }
 
 .contact-text-box{
