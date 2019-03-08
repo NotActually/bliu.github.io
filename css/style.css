@@ -164,8 +164,11 @@ nav li{
 
 
 
-/*projects*/
 
+
+
+
+/*projects*/
 #projects{ 
     text-align: center;
     background-image: url(../images/projects.jpg);
@@ -176,10 +179,11 @@ nav li{
 }
 
 .projects-background-layer{
-    background-color: rgba(185, 0, 0, 0.3);
+    background-color: rgba(185, 0, 0, 0.1);
     width: 100%;
     padding-top: 100px;
 }
+
 .projects-content{
     display: inline-block;
     margin: auto;
@@ -290,7 +294,7 @@ nav li{
 /*work*/
 
 .work-container{
-    background-color: rgba(185, 0, 0, 0.3);
+    background-color: rgba(185, 0, 0, 0.1);
     margin-top: -20px;
     padding-top: 70px;
     padding-bottom: 110px;
