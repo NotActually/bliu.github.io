@@ -15,10 +15,25 @@ body{
     -webkit-animation-name: fontfix;
     animation-name: fontfix;
     -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;  
+    animation-timing-function: linear; 
+    
+    
+    background: url("../images/showcase/GettyImages-470027170_medium_cs.jpg") repeat-y center center;
+    min-height: 1250px;
+    min-width: 99%;
+    background-size: cover;
+    text-align: left;
+    background-attachment: fixed;   
+
+    
 }
 
-/*Navigation Bar*/
+
+.cover{
+    background-color: rgba(0,0,0,0.45);
+    min-height: 1300px;
+    min-width: 100%;
+}
 
 .nav-items{
     padding: 0 -10px;
@@ -71,20 +86,12 @@ nav li{
 
 /*showcase*/
 #showcase{
-    background: url("../images/showcase/GettyImages-470027170_medium_cs.jpg") repeat-y center center;
-    min-height: 1250px;
-    min-width: 99%;
-    background-size: cover;
-    text-align: left;
-    background-attachment: fixed;       
+    text-align: left;      
 }
 
 .showcase-layer{
-    background-color: rgba(0,0,0,0.45);
     min-height: 1300px;
     min-width: 100%;
-
-
 }
 
 .showcase-text{
@@ -139,11 +146,9 @@ nav li{
 
 #about-me{
     width: 100%;
-    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
     padding-bottom: 0;
 }
 .about-me-box{
-    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
     margin: auto;   
     border-width: 2px;
     border-top-style: None;
@@ -159,303 +164,6 @@ nav li{
 }
 
 .about-me-text-box{
+    color:white;
     padding-top: 30px;
-}
-
-
-
-
-
-
-
-/*projects*/
-#projects{ 
-    text-align: center;
-    background-image: url(../images/projects.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-
-}
-
-.projects-background-layer{
-    background-color: rgba(185, 0, 0, 0.1);
-    width: 100%;
-    padding-top: 100px;
-}
-
-.projects-content{
-    display: inline-block;
-    margin: auto;
-    padding-bottom: 100px;
-}
-
-
-.projects-content-box{
-    width: 20%;
-    float: left;
-    margin: auto;
-    max-width: 300px;
-    margin: 0 30px;
-}
-
-.projects-content-box-text-img{
-    overflow: hidden;
-    font-size: 20px;
-}
-
-.projects-content-box-text-box{
-    background-color: white;
-    width: auto;
-    margin-right: -50px;
-}
-
-
-
-
-/*Blog*/
-#blog{
-    background-color: white;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 0px;
-}
-
-.blog-content-box{
-    width: 90%;
-    margin: auto;
-    display: inline-block;
-    margin-bottom: 30px;
-    margin-top: 50px;
-    text-align: center;
-}
-
-.blog-content-box-image{
-    width: 50%;
-    float: left;
-    text-align: right;
-    padding-right: 80px;
-}
-
-.image-container{
-    width: 450px;
-    height: 300px;
-    border-radius: 18px;
-    border-style: none;
-    float: right;
-
-    text-align: right;
-    overflow: hidden;
-}
-
-.read-more-button{
-    text-align: left;
-    font-weight: 200;
-
-    cursor: pointer;
-}
-
-.read-more-button button{
-    border-style: none;
-    border-radius: 10px;
-
-
-    background-color: grey;
-
-    margin-top: 10px;
-}
-.blog-content-box-description{
-    height: auto;
-    width: 50%;
-    max-width: 800px;
-
-    text-align: left;
-    padding-left: 0;
-    float: left;
-    padding-right: 60px;
-    margin-left: -40px;
-
-}
-
-.blog-content-box-description p{
-    overflow: hidden;
-    height: auto;
-    margin-left: -4px;
-    font-size: 12pt;
-    line-height: 19px;
-    color: rgba(0, 0, 0, 0.3)
-}
-
-
-
-
-
-
-/*work*/
-
-.work-container{
-    background-color: rgba(185, 0, 0, 0.1);
-    margin-top: -20px;
-    padding-top: 70px;
-    padding-bottom: 110px;
-    width: 100%;
-    min-width: 100%;
-}
-
-.principles-text-box{
-    text-align:center;
-    align-content: center;
-    position: relative;
-    right: 20px;
-}
-
-.work-background{
-    background: url("../images/showcase/Hong-Kong-Night-Tour-Big-Bus-Tours.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    /*background-position: 90px 0 0 0;*/
-}
-.work-system-content-box{
-    display: inline-block;
-    float: left;
-    background-color: white;
-    border-radius: 8px;
-    padding: 20px 30px;
-    margin: 20px 35px 0px 0;
-    position: relative;
-    left: 40px;
-    font-size: 18px;
-    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-    min-height: 480px;
-}
-
-.work-system-content-box h2{
-    font-weight: 700;
-}
-
-
-/*images*/
-#gallery{
-    background-color: white;
-    color: black;
-    text-align: center;
-    width: auto;
-    padding: 0 30px 100px 30px;
-    position: relative;
-}
-
-#gallery .font h1{
-    text-align: center;
-}
-
-#gallery .font
-{
-    padding: 0;
-}
-#gallery .font h2{
-    font-size: 18px;
-    text-align: center;
-    color: rgb(70, 68, 68);
-}
-
-.gallery-container{
-    overflow:hidden;
-}
-.gallery-item
-{
-    display: inline-block;
-    vertical-align: top;
-    zoom: 1;
-    overflow: hidden;
-    width: 20%;
-    margin: -2px;
-    line-height: 0;
-    overflow: hidden;
-    padding: 10px 20px;
-
-}
-
-.gallery-opacity{
-    opacity: 1;
-    transition: opacity .1s;
-}
-
-#gallery .gallery-item img {
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    filter: grayscale(100%);   
-    width: 100%;
-    display: block;
-    margin: 0;
-    overflow: hidden;
-}
-
-
-#gallery .gallery-item img:hover {
-  filter: none;
-  -webkit-filter: grayscale(0);
-}
-
-
-
-
-
-
-
-/*contact-me*/
-
-#contact{
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    text-align:center;
-
-    background-color: black;
-}
-
-.contact-text-box{
-    text-align: center;
-}
-
-.contact-text-box-bottom{
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 14pt;
-}
-.icon-container{
-    display: inline-block;
-}
-
-.fa{
-    width:130px;
-    height:130px;
-    font-size: 120px;
-    padding: 5px;
-    margin: 10px;
-
-    border-radius: 10px;
-}
-
-.icon-container a:hover{
-    text-decoration: none;
-    color: none;
-    filter: none;
-    color-adjust: none;
-}
-
-
-
-
-
-footer{
-    text-align: center;
-    background-color: black;
-    padding: 20px 0;
-    color: grey;
-    
-}
-
-footer a{
-    text-decoration: underline;
 }
