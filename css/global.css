@@ -6,10 +6,6 @@
 .load-hidden{
     visibility: 0;
 }
-.aaaa{
-    color:rgb(0, 0, 0);
-}
-
 
 .container{
     width: 100%;
@@ -31,6 +27,7 @@
 .boxes{
     margin-top: 20px;
 }
+
 .box{
     float: left;
     text-align: center; 
@@ -47,19 +44,6 @@
     font-weight: 700; 
     letter-spacing: 1px;
     font-size: 50px;
-}
-
-
-/*blog*/
-.blog-content-title-font{
-    font-size: 30px;
-    font-weight: 400;
-    letter-spacing: 2px;
-}
-
-.blog-content-date-font{
-    color: green;
-    font-size: 15px;
 }
 
 
@@ -93,5 +77,4 @@
     text-align: left;
     font-style: normal;
     position: static;
-
 }
