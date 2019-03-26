@@ -165,6 +165,7 @@ nav li{
 }
 
 .about-me-text-box{
+    width:1100px;
     margin: auto;
     background-color: #f4f4f4;
     border-radius: 20px;
@@ -178,24 +179,75 @@ nav li{
 
 
 
-/*Projects*/
+/*thoughts*/
 #thoughts{
     background-image: linear-gradient(to right, #f83600 10%, #f9d423 100%, rgb(0,139,253));
+    height: 1500px;
+    width: 100%;
 }
 
-#thoughts h1{
+#thoughts .thoughts-header{
     padding-left: 20px;
     font-style: bold;
     text-align: left;
     color:white;
 }
 
-.carousel-box{
-    height: 300px;
-    width: 900px;
-    border-color: white; 
-    border-width: 5px;
+.thoughts-container{
+    padding-top: 100px;
+    width: 1700px;
+    margin: auto;
+    padding-bottom: 100px;
 }
+
+.thoughts-gif-left{
+    padding-right: 60px;
+    padding-top: 150px;
+}
+
+.thoughts-gif-right{
+    padding-left: 60px;
+    padding-top: 150px;
+}
+
+.carousel-container{
+    margin: auto;
+    height: 400px;
+    width: 600px;
+}
+
+.carousel-container img{
+    height:400px; 
+}
+
+.carousel-text-box{
+    width: 400px;
+    height:400px;
+    background-color:white;
+}
+
+.thoughts-item{
+    float:left;
+}
+
+.image-wrapper{
+    height: 410.99px;
+    width: 330px;
+    max-width: 330px;
+    margin-left: -70px;   
+}
+
+.image-wrapper img{
+    margin-top:-20px;
+}
+
+
+
+/*Projects*/
+#projects{
+    height: 200px;
+}
+
 
 footer{
     height: 300px;
