@@ -3,7 +3,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.2;
-    margin: 0;  
 
     /*
     -webkit-animation-delay: .1s;
@@ -176,78 +175,31 @@ nav li{
 
 
 
-
-/*thoughts*/
-#thoughts{
+/*Projects*/
+#projects{
     background-image: linear-gradient(to right, #f83600 10%, #f9d423 100%, rgb(0,139,253));
     height: 1500px;
     width: 100%;
+    padding-top: 80px;
+    font-family: 'Press Start 2P', cursive;
 }
 
-#thoughts .thoughts-header{
-    padding-left: 20px;
-    font-style: bold;
-    text-align: left;
-    color:white;
+#projects h1{
+    text-align: center;
 }
 
-.thoughts-container{
-    padding-top: 100px;
-    width: 1700px;
-    margin: auto;
-    padding-bottom: 100px;
+.title-item{
+    float: left;
 }
 
-.thoughts-gif-left{
-    padding-right: 60px;
-    padding-top: 150px;
-}
-
-.thoughts-gif-right{
-    padding-left: 60px;
-    padding-top: 150px;
-}
-
-.carousel-container{
-    margin: auto;
-    height: 400px;
-    width: 600px;
-}
-
-.carousel-container img{
-    height:400px; 
-}
-
-.carousel-text-box{
+.project-box{
+    margin-left: 160px;
+    float: left;
     width: 400px;
-    height:400px;
-    background-color:white;
+    height: 500px;
+    background-color:rgb(236, 236, 236);
+    border-radius:10px;
 }
 
-.thoughts-item{
-    float:left;
-}
-
-.image-wrapper{
-    height: 410.99px;
-    width: 330px;
-    max-width: 330px;
-    margin-left: -70px;   
-}
-
-.image-wrapper img{
-    margin-top:-20px;
-}
-
-
-
-/*Projects*/
-#projects{
-    height: 200px;
-}
-
-
-footer{
-    height: 300px;
-    background-color: rgb(49, 49, 49)
+.project-box-image{
 }
