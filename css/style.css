@@ -229,3 +229,9 @@ nav li{
     top: 0;
     left: 0;
 }
+
+
+#education{
+    background-color: black; 
+    background-image: linear-gradient(to right, #f83600 10%, #f9d423 100%, rgb(0,139,253));
+}
