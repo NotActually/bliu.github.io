@@ -116,6 +116,9 @@ nav li{
     border-style: none;
     cursor: pointer;
 }
+.icon-container{
+    display: inline-block;
+}
 
 .resume{
     background-color: rgb(0, 139, 253);
