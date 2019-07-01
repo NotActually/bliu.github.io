@@ -1,11 +1,29 @@
+.fa{
+    font-size: 27pt;
+    padding: 10px;
+}
+
+.fa a{
+    transition: 2s;
+}
+
+.fa a:hover{
+    background-color:white;
+}
+
+
 .fa-facebook{
     background-color :#3B5998;
     color: white;
 }
 
+.fa-facebook a:hover{
+    background-color:white;
+}
+
 .fa-github{
-    background-color: black;
-    color: rgb(238, 121, 11);
+    background-color: rgb(238, 121, 11);
+    color:white;
 }
 
 .fa-linkedin{
